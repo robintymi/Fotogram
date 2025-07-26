@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/favicon_fotogram.png">
+    <style>
+   
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo_fotogram.svg" alt="Fotogram Logo" />
+    </header>
+    <section class="album">
+      <h1>Your Personal Photo Album</h1>
+      <div class="image-grid">
+        <!-- Images will be dynamically added here -->
+      </div>
+      <div class="modal" id="imageModal">
+        <div class="caption" id="modalCaption"></div>
+        <img id="modalImage" src="" alt="Modal Image" />
+        <button id="closeButton" class="close">&times;</button>
+        <div class="navigation">
+          <button id="prevButton">&#8592; </button>
+          <span id="imageCounter"></span>
+          <button id="nextButton"> &#8594;</button>
+        </div>
+      </div>
+    </section>
+    <footer>DOGS</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
